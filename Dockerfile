@@ -12,6 +12,3 @@
  RUN pip install -r requirements.txt
 #Copiar todo el contenido del directorio en el container /code/
  ADD . /code/
-#Agregar permisos en bash para deployar
- RUN useradd -m myuser
- USER myuser
